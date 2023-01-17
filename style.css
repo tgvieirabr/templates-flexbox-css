@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.area {
+  width: 1000px;
+  height: 1000px;
+  background-image: url("/img/arte1_anuncio_de_carros_amarelo\ e\ preto_forte2.png");
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  width: 1000px;
+  height: 229px;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.km {
+  font-size: 33px;
+  font-weight: 600;
+  position: absolute;
+  padding: 10px;
+  top: 153px;
+  text-align: center;
+  right: 815px;
+  width: 160px;
+  height: 83px;
+  line-height: 30px;
+  color: black;
+}
+.modelo {
+  font-size: 62px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  position: absolute;
+  width: 490px;
+  height: 229px;
+  padding: 10px;
+}
+.ano {
+  width: 144px;
+  height: 72px;
+  font-size: 60px;
+  bottom: 0;
+  left: 830px;
+  position: absolute;
+  color: black;
+}
+.img {
+  display: flex;
+  z-index: -1;
+  position: relative;
+  width: 1000px;
+  height: 540px;
+  top: -60px;
+  max-width: 100%;
+}
+.valor {
+  position: relative;
+  font-size: 58px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  width: 350px;
+  top: -168px;
+  margin-left: 150px;
+  box-sizing: border-box;
+}
+.footer {
+  position: absolute;
+  top: 665px;
+}
+.info {
+  position: relative;
+  display: flex;
+  width: 600px;
+  height: 56px;
+  align-items: center;
+  padding-top: 20px;
+  margin-right: 177px;
+}
+.combustivel {
+  width: 296px;
+  font-size: 30px;
+  font-weight: 100px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.cambio {
+  font-size: 30px;
+  font-weight: 300px;
+  align-items: center;
+  justify-content: center;
+  width: 235px;
+}
+.box-inferior {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  height: 182px;
+}
+.telefone {
+  display: flex;
+  position: relative;
+  width: 285px;
+  height: 65px;
+  left: -28px;
+  bottom: -22px;
+  font-size: 38px;
+  align-items: center;
+  justify-content: center;
+}
+.logomarca img {
+  display: flex;
+  width: 355px;
+  height: 130px;
+}
+.rodape {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 85px;
+}
+.rodape .site {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 30px;
+}
+.rodape .local {
+  font-size: 30px;
+}
